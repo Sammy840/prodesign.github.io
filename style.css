@@ -284,7 +284,7 @@ html{
 .banner h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 8rem;
-  font-weight: lighter;
+  font-weight: bold;
   color: #fff;
   width: 70%;
   line-height: 8rem;
@@ -917,6 +917,10 @@ html{
 }
 
 @media(max-width:910px){
+  .about-us-img-wrapper img{
+    margin-top: 9rem;
+  }
+
   .card{
     width: 22rem;
     height: 30rem;
@@ -1036,6 +1040,19 @@ html{
     right: -100%;
   }
 
+  .line-menu{ 
+    top: 1.8rem;
+    left: 55rem;
+  }
+
+  .line-menu span{
+    left: 3rem;
+  }
+  
+  .line-menu span::before{
+    top: 11%;
+  }
+
   .service{
     width: 40rem;
   }
@@ -1066,6 +1083,10 @@ html{
 
   .about-us-img-wrapper img{
     width:100%;
+  }
+
+  .contact{
+    height: 100vh;
   }
 
   .contact-right h1{
