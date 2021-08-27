@@ -917,6 +917,9 @@ html{
 }
 
 @media(max-width:910px){
+  .banner button{
+    margin-top: -1rem;
+  }
   .about-us-img-wrapper img{
     margin-top: 9rem;
   }
